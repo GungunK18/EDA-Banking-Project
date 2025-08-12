@@ -1,0 +1,34 @@
+﻿Citation:
+Moro, S., Cortez, P., & Rita, P. (2014). A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems. DOI
+
+Source:
+UCI Machine Learning Repository – enriched with economic indicators from Bank of Portugal.
+
+Files:
+
+bank-additional-full.csv → 41,188 rows
+
+bank-additional.csv → 4,119 rows (10% sample)
+
+Task:
+Binary classification – predict if a client will subscribe to a term deposit (y: yes/no).
+
+Structure:
+
+Rows: 41,188
+
+Columns: 20 input variables + 1 output variable
+
+Missing values in categorical columns are labeled "unknown".
+
+Key Features:
+
+Client Info: age, job, marital, education, default, housing, loan
+
+Last Contact: contact, month, day_of_week, duration
+
+Campaign Data: campaign, pdays, previous, poutcome
+
+Economic Indicators: emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed
+
+Target: y (term deposit subscribed or not)
